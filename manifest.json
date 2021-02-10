@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "TestUI",
+  "description": "Test task for TensionX",
+  "version": "1.0",
+  "icons": { "128": "img1.png" },
+  "browser_action": {
+    "default_icon": "iconDef.png",
+    "default_popup": "addon.html"
+  },
+  "permissions": [ "activeTab" ]
+}
